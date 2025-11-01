@@ -1,0 +1,109 @@
+*{
+    padding: 0; margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navigation{
+    display: flex;
+    gap: 80px;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(238,238,238) 2px 1px 2px;
+}
+
+.elements{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    width: 700px;
+    text-decoration: none;
+    box-shadow: 2px grey;
+    
+}
+
+.navigation button{
+    width: 160px;
+    height: 48px;
+    border:0px;
+    border-radius: 4px;
+    background-color:oklch(49.4596% .248135 263.583);
+    color: white;
+    font-weight: 700;
+    font-size:small;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.ele2{
+    display: flex;
+    background-color:black;
+    padding: 50px 55px;
+    height: 40px;
+    align-items: center;
+    word-spacing: 4px;
+    gap: 10px;
+    font-size: large;
+    box-shadow: rgb(238,238,238) 2px 0.5px 2px;
+}
+.ele2 p{
+    color: grey;
+}
+
+.hero{
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    padding-top: 120px ;
+    padding-left: 30px;
+
+}
+.hero1{
+    
+    width: 50%;
+    display: inline-block;
+    color: white;
+
+}
+.hero img{
+    height: 500px;
+}
+.hero h1{
+    font-size: 58px;
+}
+h6{
+    font-size:large;
+
+}
+h1{
+    word-spacing: 10px;
+}
+.hero p{
+    font-family: monospace;
+    color:oklch(49.4596% .248135 263.583);
+    font-size: larger;
+}
+.but1 button{
+    width: 120px;
+    height: 48px;
+    border:0px;
+    border-radius: 4px;
+    background-color:oklch(49.4596% .248135 263.583);
+    color: white;
+    font-weight: 700;
+    font-size:small;
+}
+.butt {
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+}
+#b2 button{
+    background-color: black;
+    color: white;
+    border: 0cap;
+}
